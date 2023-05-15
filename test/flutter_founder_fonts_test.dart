@@ -5,22 +5,22 @@ import 'package:flutter_founder_fonts/flutter_founder_fonts.dart';
 void main() {
   group('Test Font Creation', () {
     test('Create Heiti', () {
-      final heiti = FlutterFounderFonts.heiti;
+      final heiti = FlutterFounderFonts.heitiText;
       expect(heiti.fontFamily, 'Founder-HeiTi');
     });
 
     test('Create Kaiti', () {
-      final kaiti = FlutterFounderFonts.kaiti;
+      final kaiti = FlutterFounderFonts.kaitiText;
       expect(kaiti.fontFamily, 'Founder-KaiTi');
     });
 
     test('Create Fangsong', () {
-      final fangsong = FlutterFounderFonts.fangsong;
+      final fangsong = FlutterFounderFonts.fangsongText;
       expect(fangsong.fontFamily, 'Founder-FangSong');
     });
 
     test('Create Shusong', () {
-      final shusong = FlutterFounderFonts.shusong;
+      final shusong = FlutterFounderFonts.shusongText;
       expect(shusong.fontFamily, 'Founder-ShuSong');
     });
   });
