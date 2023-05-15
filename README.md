@@ -27,9 +27,9 @@ dependencies:
     git: https://github.com/Dandelight/flutter_founder_fonts
 ```
 
-## 使用方法（二选一）
+## 使用方法
 
-### 配置式
+### 第一步：配置
 
 在 `pubspec.yaml` 中添加字体配置：
 
@@ -50,6 +50,8 @@ flutter:
         - asset: packages/flutter_founder_fonts/fonts/Founder-Kaiti.ttf
 ```
 
+### 第二步：使用
+
 在您的代码中使用
 
 ```dart
@@ -61,7 +63,7 @@ const Text(
 );
 ```
 
-### 函数式
+### 可选：函数式使用
 
 引入包
 

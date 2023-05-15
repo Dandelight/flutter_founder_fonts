@@ -14,18 +14,3 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
-flutter:
-  fonts:
-    - family: Founder-HeiTi
-      fonts:
-        - asset: lib/fonts/Founder-Heiti.ttf
-    - family: Founder-ShuSong
-      fonts:
-        - asset: lib/fonts/Founder-Shusong.ttf
-    - family: Founder-FangSong
-      fonts:
-        - asset: lib/fonts/Founder-Fangsong.ttf
-    - family: Founder-KaiTi
-      fonts:
-        - asset: lib/fonts/Founder-Kaiti.ttf
